@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('imagenes/cubiculos.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #084303;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #324841;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #29a023;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #3e623c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21801c;
+}
+
+
+#contenedor-cajas div {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+#resultado, #numerosOrdenados, #importeNeto, #sueldoFinal, #sumaImpares, #asteriscos, #tablas {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+form label {
+    margin-right: 10px;
+}
+
+form select, form button {
+    margin-top: 10px;
+}
+
+
+
+.ejercicio1, .ejercicio2, .ejercicio3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#formularioIngreso {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formularioIngreso label {
+    margin-right: 10px;
+    display: inline-block;
+    width: 100px;
+}
+
+#formularioIngreso input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#formularioIngreso button {
+    background-color: #29a023;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#formularioIngreso button:hover {
+    background-color: #21801c;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="ejercicio6">
+
+    <header>
+        <h1>✉︎𝟞: 𝕄𝕠𝕤𝕥𝕣𝕒𝕣 𝕪 𝕆𝕔𝕦𝕝𝕥𝕒𝕣 𝔽𝕠𝕣𝕞𝕦𝕝𝕒𝕣𝕚𝕠✉︎</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul>
+            <li><button id="toggleFormulario">Mostrar/Ocultar Formulario</button></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="formularioIngreso" style="display:none;">
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="cancion">Canción Favorita:</label>
+                <input type="text" id="cancion" name="cancion" required><br><br>
+
+                <button type="submit">Listo</button>
+            </form>
+            <p id="mensajeGracias" style="display:none;">Gracias por participar</p>
+        </div>
+    </section>
+
+    <script src="scripts/script6.js"></script>
+</body>
+</html>

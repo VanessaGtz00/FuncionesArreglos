@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2: Votación por Sección</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🏠︎𝟚: 𝕍𝕠𝕥𝕒𝕔𝕚ó𝕟 𝕡𝕠𝕣 𝕊𝕖𝕔𝕔𝕚ó𝕟🏠︎</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form id="votacion-form" onsubmit="emitirVoto(event)">
+            <label for="seccion">Selecciona tu sección:</label>
+            <select id="seccion">
+                <option value="norte">Norte</option>
+                <option value="sur">Sur</option>
+                <option value="centro">Centro</option>
+            </select>
+            <button type="submit">Votar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+    <script src="scripts/script2.js"></script>
+</body>
+</html>
